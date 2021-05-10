@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+html {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(135deg, rgba(255, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 35%, rgba(0, 20, 255, 1) 100%);
+    height: 100vh;
+    width: 100%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.header h1 {
+    font-size: 4rem;
+    color: black;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+}
+
+.text1 p {
+    font-size: 2rem;
+}
+
+.text2 {
+    display: flex;
+    justify-content: center;
+}
+
+.text2 p {
+    font-size: 2rem;
+}
+
+.text3 {
+    display: flex;
+    justify-content: center;
+}
+
+.text3 p {
+    font-size: 2rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    height: 5rem;
+}
+
+.socials a {
+    color: black;
+}
+
+.socials .instagram {
+    display: flex;
+    cursor: pointer;
+}
+
+.socials .instagram i {
+    font-size: 2rem;
+}
+
+.socials .instagram h4 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: .5rem;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .header h1 {
+        font-size: 1.5rem;
+        color: black;
+    }
+    .text1 {
+        display: flex;
+        justify-content: center;
+    }
+    .text1 p {
+        font-size: 1rem;
+        width: 75%;
+    }
+    .text2 {
+        display: flex;
+        justify-content: center;
+    }
+    .text2 p {
+        font-size: 1rem;
+        width: 75%;
+    }
+    .text3 {
+        display: flex;
+        justify-content: center;
+    }
+    .text3 p {
+        font-size: 1rem;
+        width: 75%;
+    }
+    .socials {
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        height: 5rem;
+    }
+    .socials .instagram {
+        display: flex;
+        cursor: pointer;
+    }
+    .socials .instagram i {
+        font-size: 1rem;
+    }
+    .socials .instagram h4 {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-left: .5rem;
+        font-size: 1rem;
+    }
+}
